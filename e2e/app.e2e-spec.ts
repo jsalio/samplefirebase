@@ -1,10 +1,10 @@
-import { Sample03Page } from './app.po';
+import { ReactionsPage } from './app.po';
 
-describe('sample03 App', () => {
-  let page: Sample03Page;
+describe('reactions App', () => {
+  let page: ReactionsPage;
 
   beforeEach(() => {
-    page = new Sample03Page();
+    page = new ReactionsPage();
   });
 
   it('should display welcome message', () => {
